@@ -1,0 +1,26 @@
+ALGORITHM Rabeh 
+VAR
+    i:INTEGER;
+    C:CHAR;
+    Str:STRING;
+    leng:INTEGER:=0;
+    countw:INTEGER:=0;
+    countv:INTEGER:=0;
+BEGIN
+    FOR each character in string Str
+WHILE (c <>.) DO
+    leng:= leng+1;
+END_WHILE
+write(leng)
+FOR  (i=0;i<leng;i++){ 
+if (sentence[i] = " ")
+    countw:=  countw+1;
+else if (sentence[i] = " a, e, i, o, u, y")
+
+    countv:= countv+1
+
+ else{
+     return 0;
+ }   
+}
+END
